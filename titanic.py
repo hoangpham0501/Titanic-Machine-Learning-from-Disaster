@@ -4,11 +4,10 @@ import numpy as np
 import pandas as pd
 from sklearn.cross_validation import train_test_split
 from sklearn import tree 
-from sklearn.ensemble import RandomForestClassifier 
 
 
 # Setting working enviroment 
-path = os.path.expanduser('C:/Users/pvhoang/Desktop/Titanic_dataset')
+path = os.path.expanduser('C:/Relax/Titanic-Machine-Learning-from-Disaster')
 os.chdir(path)
 
 # read training and testing data
